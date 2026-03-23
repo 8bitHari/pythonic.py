@@ -1,29 +1,14 @@
-# Profile-assets-8bitHari
-# Hey, I'm Hari 👋
+# pythonic.py 🐍
 
-Materials Engineering Master's student at Jönköping University, Sweden — currently expanding into the world of software and exploring where code can take me.
+My Python learning journey from zero to building real projects.
 
-## 🐍 Currently Learning
-- Python (CS50P — Harvard's Python course)
-- Building real projects from scratch
-- Git & GitHub
+## Projects
+- **ATM** — PIN validation, withdrawals, balance tracking
+- **Contact Book** — Add, search, view contacts
+- **Quiz Game** — F1 themed quiz with score tracking
+- **Password Generator** — Random password with custom length
+- **BMI Calculator** — Weight and height based health checker
 
-## 🚀 Projects
-- **ATM System** — PIN validation, withdrawals, balance tracking
-- **Contact Book** — Add, search, and manage contacts
-- **F1 Quiz Game** — Score tracking and input validation
-- **Password Generator** — Custom length random passwords
-- **BMI Calculator** — Health category checker
-
-## ⚡ Interests
-- 🚗 Cars & Automotive
-- 🏎️ Formula 1
-- ✈️ Aviation
-- 📱 Consumer Tech
-- 📸 Photography
-
-## 📫 Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harinath%20Rao-blue)](https://linkedin.com/in/harinath-rao)
-
----
-*"From zero to building real projects — one commit at a time."*
+## CS50P Problem Sets
+- Problem Set 0 — Functions & Variables
+- Problem Set 1 — Conditionals
