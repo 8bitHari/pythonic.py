@@ -1,18 +1,17 @@
 def main():
-    spacecraft = [
-        {"name": "Voyager 1", "distance": 163},
-        {"name": "James Webb Space Telescope"}
-    ]
-    
+    spacecraft = {"name": "James Webb Space Telescope"}
+    spacecraft.update({"distance": 0.01, "Orbit": "Sun"})
     print(create_report(spacecraft))
-    
 
 def create_report(spacecraft):
-    report = "=========== REPORT ===========\n\n"
-    for s in spacecraft:
-        report += f"Name: {s['name']}\n"
-        report += f"Distance: {s.get('distance', 'Unknown')} AU\n\n"
-    report += "=============================="
-    return report
+    return f"""
+=========== REPORT ==========
+
+Name: {spacecraft.get("name", "Unknown")}
+Distance : {spacecraft.get("distance", "Unknown")} AU
+Orbit: {spacecraft.get("Orbit", "Unknown")}
+
+==============================
+"""
 
 main()
