@@ -10,11 +10,11 @@ def main():
     print("x divided by 2 is", half(x))
 
 def square(n):
-    return pow(n, 2)   
+    return pow(n, 2)   #can use n * n or n**2
 
 def half(n):
-    return n / 2  #can use n * n or n**2
+    return n / 2  
     
 
-
-main()
+if __name__ == "__main__":
+    main()
