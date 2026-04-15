@@ -1,4 +1,4 @@
-from bank import value
+from bank2 import value
 
 def test_value():
     assert value("hello") == 0
