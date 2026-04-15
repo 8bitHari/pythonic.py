@@ -1,15 +1,17 @@
 def main():
-    greeting = phrase(input("Greeting: "))
-    return greeting
+    greeting = value(input("Greeting: "))
+    print(greeting)
 
-def phrase(p):
+def value(p):
     p = p.lower().strip()
     if p.startswith("hello"):
-        print("$0")
+        return(0)
     elif p.startswith("hey"):
-        print("$20")
+        return(20)
     else:
-        print("$100")
+        return(100)
     
-main()
+
+if __name__=="__main__":
+    main()
     
