@@ -22,9 +22,8 @@ def main():
     except FileNotFoundError:
         sys.exit("Input does not exist")
     shirt_img = Image.open("shirt.png")
-    size = input_img.size
-    shirt_img = ImageOps.fit(shirt_img, size)
+    size = shirt_img.size
+    input_img = ImageOps.fit(input_img, size)
     input_img.paste(shirt_img, shirt_img)
     input_img.save(output_file)
-
 main()
