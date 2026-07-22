@@ -6,7 +6,8 @@ def main():
 
 
 def validate(ip):
-    match = re.fullmatch(r"(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})", ip)
+    octet = r"(0|[1-9]\d{0,2})"
+    match = re.fullmatch(rf"{octet}\.{octet}\.{octet}\.{octet}", ip)
     if not match:
         return False
     return all(0 <= int(part) <= 255 for part in match.groups())
