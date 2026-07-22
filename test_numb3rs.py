@@ -10,6 +10,8 @@ def test_valid():
 def test_out_of_range():
     assert validate("275.3.6.28") is False
     assert validate("256.1.1.1") is False
+    assert validate("1.256.1.1") is False
+    assert validate("1.1.1.256") is False
 
 
 def test_invalid_format():
